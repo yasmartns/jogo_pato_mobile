@@ -7,6 +7,7 @@
 size = Vector2(16, 16)
 
 [node name="Player" type="CharacterBody2D"]
+position = Vector2(0, -8)
 script = ExtResource("1_op7yt")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -17,7 +18,6 @@ texture = ExtResource("1_5vioa")
 hframes = 2
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(-3, 0)
-zoom = Vector2(1.5, 1.5)
+zoom = Vector2(3, 3)
 limit_left = 0
-limit_right = 1152
+editor_draw_limits = true
